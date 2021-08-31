@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/LogoBrackets.png">
+    <title>GDSC - Univ. de Granada</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-light navbar-expand-sm">
+            <!--Logo-->
+            <div class="navbar-brand mr-auto">
+                <a href="#" class="logo col-sm-5">
+                    <img src="img/LogoGDSC.png" alt="Google Developer Student Clubs. Universidad de Granada ">
+                </a>
+            </div>
+    
+            <!--Toggler para pantallas pequeñas-->
+            <button class="navbar-toggler col-sm-1" type="button" data-bs-toggle="collapse" data-bs-target="#menuHeader" aria-controls="menuHeader" aria-expanded="false" aria-label="Desplegar menú">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+    
+            <!--Enlaces del header-->
+            <div id="menuHeader" class="collapse navbar-collapse justify-content-end col-7">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">¿Qué es?</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#team" class="nav-link">Equipo</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#events" class="nav-link">Eventos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contacto</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <button class="btn btn-1 btn-primary"> Únete </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--Sección de bienvenida-->
+    <section id="principal">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="text col-lg-6 col-sm-11">
+                    <div class="logo_white">
+                        <img src="img/LogoBlancoDSC.png" alt="Google Developer Student Clubs">
+                    </div>
+                    <div class="text_contents">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis diam velit. Curabitur eu laoreet nibh. Nullam eget tellus luctus, finibus purus eget, vehicula diam. Integer euismod justo ut sapien lacinia, in volutpat orci accumsan. Vestibulum venenatis nec odio vel congue. Pellentesque tincidunt dolor sit amet enim porta, nec luctus orci semper. Mauris in neque eros. Donec vehicula quam et aliquet auctor. Nulla ultricies, lorem in venenatis ullamcorper, elit odio venenatis lorem, a consectetur sapien est vel neque. Integer porta commodo libero sed fringilla. Integer pharetra imperdiet nisi non condimentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur eleifend vel massa a rhoncus. Morbi dui nunc, lacinia sollicitudin laoreet non, sodales sit amet tellus.</p>
+                        <button class="btn btn-1 btn-primary btn-center">Únete</button>
+                    </div>
+                </div>
+
+                <div class="image col-lg-5 col-sm-11">
+                    <img src="https://via.placeholder.com/1280x720.png?text=GDSC Demo" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="masinfo">
+            <button class="btn btn-1 btn-light" onclick="scrollNextSection()">
+                <span class="material-icons">
+                    expand_more
+                </span>
+                <h6>Saber más</h6>
+            </button>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="image col-lg-5 col-sm-11">
+                    <img src="https://via.placeholder.com/1280x720.png?text=GDSC Demo" alt="">
+                </div>
+        
+                <div class="col-lg-5 col-sm-11">
+                    <h2>¿Qué es?</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis diam velit. Curabitur eu laoreet nibh. Nullam eget tellus luctus, finibus purus eget, vehicula diam. Integer euismod justo ut sapien lacinia, in volutpat orci accumsan. Vestibulum venenatis nec odio vel congue. Pellentesque tincidunt dolor sit amet enim porta, nec luctus orci semper. Mauris in neque eros. Donec vehicula quam et aliquet auctor. Nulla ultricies, lorem in venenatis ullamcorper, elit odio venenatis lorem, a consectetur sapien est vel neque. Integer porta commodo libero sed fringilla. Integer pharetra imperdiet nisi non condimentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur eleifend vel massa a rhoncus. Morbi dui nunc, lacinia sollicitudin laoreet non, sodales sit amet tellus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team">
+        <h2>Conoce al equipo</h2>
+
+        <div class="container">
+            <div class="row">
+                <div class="card position-relative col-lg-3 col-sm-11">
+                    <img class="card-img-top" src="https://via.placeholder.com/1280x720.png?text=GDSC Demo" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+        
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">
+                        GDSC Lead
+                    </span>
+                </div>
+        
+                <div class="card position-relative col-lg-3 col-sm-11 offset-lg-1">
+                    <img class="card-img-top" src="https://via.placeholder.com/1280x720.png?text=GDSC Demo" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+        
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        Core Team
+                    </span>
+                </div>
+        
+                <div class="card position-relative col-lg-3 col-sm-11 offset-lg-1">
+                    <img class="card-img-top" src="https://via.placeholder.com/1280x720.png?text=GDSC Demo" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+        
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                        Member
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="events">
+        <h2>¿Nos vemos en los eventos?</h2>
+
+        <div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+            <div class="carousel-cell">
+                <div class="container">
+                    <div class="card">
+                        <img class="card-img-top" src="https://via.placeholder.com/1280x720.png?text=GDSC Demo" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <div class="container">
+                    <div class="card">
+                        <img class="card-img-top" src="https://via.placeholder.com/1280x720.png?text=GDSC Demo" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <div class="container">
+                    <div class="card">
+                        <img class="card-img-top" src="https://via.placeholder.com/1280x720.png?text=GDSC Demo" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <div class="container">
+                    <div class="card">
+                        <img class="card-img-top" src="https://via.placeholder.com/1280x720.png?text=GDSC Demo" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <div class="container">
+                    <div class="card">
+                        <img class="card-img-top" src="https://via.placeholder.com/1280x720.png?text=GDSC Demo" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <div class="container">
+                    <div class="card">
+                        <img class="card-img-top" src="https://via.placeholder.com/1280x720.png?text=GDSC Demo" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>¡Contacta con nosotros!</h2>
+
+        <div class="socialmedia">
+            <div>
+                <ul>
+                    <li id="twitter">
+                        <a href="https://twitter.com/GDSC_Granada" class="network">
+                            <img src="https://img.icons8.com/ios/50/000000/twitter--v1.png" alt="Twitter"/>
+                            <p>Twitter</p>
+                        </a>
+                    </li>
+        
+                    <li id="instagram">
+                        <a href="https://www.instagram.com/gdsc_granada/" class="network">
+                            <img src="https://img.icons8.com/ios/50/000000/instagram-new--v1.png" alt="Instagram">
+                            <p>Instagram</p>
+                        </a>
+                    </li>
+        
+                    <li id="github">
+                        <a href="https://github.com/Developer-Student-Clubs-UGR" class="network">
+                            <img src="https://img.icons8.com/ios/50/000000/github.png" alt="GitHub"/>
+                            <p>Github</p>
+                        </a>
+                    </li>
+        
+                    <li id="gdsc">
+                        <a href="https://gdsc.community.dev/university-of-granada/" class="network">
+                            <img src="https://img.icons8.com/ios/50/000000/under-computer.png" alt="Comunidad de GDSC"/>
+                            <p>GDSC Community</p>
+                        </a>
+                    </li>
+        
+                    <li id="linkedin">
+                        <a href="https://www.linkedin.com/company/gdsc-ugr" class="network">
+                            <img src="https://img.icons8.com/ios/50/000000/linkedin.png" alt="LinkedIn"/>
+                            <p>LinkedIn</p>
+                        </a>
+                    </li>
+        
+                    <li id="youtube">
+                        <a href="https://www.youtube.com/channel/UCqwGWNIrspWOsm8u8XrItag" class="network">
+                            <img src="https://img.icons8.com/ios/50/000000/youtube-play--v1.png" alt="YouTube"/>
+                            <p>Youtube</p>
+                        </a>
+                    </li>
+        
+                    <li id="correo">
+                        <a href="mailto:dscgranada@gmail.com" class="network">
+                            <img src="https://img.icons8.com/ios/50/000000/mail.png" alt="Correo Electrónico"/>
+                            <p>Correo Electrónico</p>
+                        </a>
+                    </li>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 logo_white col-sm-11">
+                    <img src="img/LogoBlancoDSC.png" alt="Google Developer Student Clubs">
+                </div>
+    
+                <div class=" text col-lg-7 col-sm-11">
+                    <p>Aaaaaaaaa</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="scripts/hideNavbarAtStart.js"></script>
+<script src="scripts/scrollToNextSection.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</html>
