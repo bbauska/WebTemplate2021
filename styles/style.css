@@ -84,7 +84,7 @@ section h2{
     0% {opacity:0;}
     100% {opacity:1;}
   }
-  
+
 /*Menú*/
 header{
     visibility: hidden;
@@ -260,6 +260,7 @@ section#about{
     display: inline-block;
 } 
 
+/*Colores de RRSS*/
 #twitter{
     background-color: #0084b4;
 }
