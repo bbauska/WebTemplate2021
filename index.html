@@ -58,7 +58,7 @@
 
     <!--Sección de bienvenida-->
     <section id="principal">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="text col-lg-6 col-sm-11">
                     <div class="logo_white">
@@ -77,17 +77,25 @@
         </div>
 
         <div class="masinfo">
-            <button class="btn btn-1 btn-light" onclick="scrollNextSection()">
-                <span class="material-icons">
-                    expand_more
-                </span>
-                <h6>Saber más</h6>
-            </button>
+            <div class="container">
+                <div class="row">
+                    <button class="btn btn-1 col-lg-2 col-sm-3 offset-lg-4 offset-sm-3  btn-light" onclick="scrollNextSection()">
+                        <div class="container">
+                            <div class="row">
+                                <span class="material-icons col-2">
+                                    expand_more
+                                </span>
+                                <h6 class="col-8 offset-1">Saber más</h6>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="about">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="image col-lg-5 col-sm-11">
                     <img src="https://via.placeholder.com/1280x720.png?text=GDSC Demo" alt="">
@@ -106,43 +114,31 @@
 
         <div class="container">
             <div class="row">
-                <div class="card position-relative col-lg-3 col-sm-11">
+                <div class="card col-lg-3 col-sm-11">
                     <img class="card-img-top" src="https://via.placeholder.com/1280x720.png?text=GDSC Demo" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text job dsclead">// GDSC Lead</p>
                       <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
-        
-                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">
-                        GDSC Lead
-                    </span>
                 </div>
         
-                <div class="card position-relative col-lg-3 col-sm-11 offset-lg-1">
+                <div class="card col-lg-3 col-sm-11 offset-lg-1">
                     <img class="card-img-top" src="https://via.placeholder.com/1280x720.png?text=GDSC Demo" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text job coreteam">// Core Team</p>
                       <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
-        
-                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                        Core Team
-                    </span>
                 </div>
         
-                <div class="card position-relative col-lg-3 col-sm-11 offset-lg-1">
+                <div class="card col-lg-3 col-sm-11 offset-lg-1">
                     <img class="card-img-top" src="https://via.placeholder.com/1280x720.png?text=GDSC Demo" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text job member">// Member</p>
                       <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
-        
-                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
-                        Member
-                    </span>
                 </div>
             </div>
         </div>
@@ -278,6 +274,13 @@
                         <a href="https://www.youtube.com/channel/UCqwGWNIrspWOsm8u8XrItag" class="network">
                             <img src="https://img.icons8.com/ios/50/000000/youtube-play--v1.png" alt="YouTube"/>
                             <p>Youtube</p>
+                        </a>
+                    </li>
+
+                    <li id="telegram">
+                        <a href="https://t.me/DSCGranada" class="network">
+                            <img src="https://img.icons8.com/ios/50/000000/telegram-app.png" alt="Telegram"/>
+                            <p>Telegram</p>
                         </a>
                     </li>
         
