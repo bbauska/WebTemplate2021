@@ -50,6 +50,23 @@
   opacity: 0.9;
 }
 
+.footer-basic .col > a{
+  background: #4885ed;
+  border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 16px;
+  padding-left: 16px;"
+}
+.footer-basic .col > a:hover {
+  background-color: White !important;
+  color: black;
+  border-radius: 10px;
+  border-color: #4885ed;
+}
+
 .footer-basic .copyright {
   margin-top: 15px;
   text-align: center;
